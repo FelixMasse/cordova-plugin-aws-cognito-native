@@ -1,7 +1,7 @@
 #import <Cordova/CDV.h>
 
 #import "AWSCognitoIdentityProvider.h"
-#import <AWSCognito/AWSCognito.h>
+#import <AWSCognitoAuth/AWSCognitoAuth.h>
 #import <AWSLambda/AWSLambda.h>
 
 #import <Foundation/Foundation.h>

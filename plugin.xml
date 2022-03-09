@@ -25,8 +25,9 @@
 
 		<!-- frameworks -->
 		<framework src="AWSCore" type="podspec" spec=">= 2.27.2" />
-		<framework src="AWSCognito" type="podspec" spec=">= 2.27.2" />
+		<framework src="AWSCognitoAuth" type="podspec" spec=">= 2.27.2" />
 		<framework src="AWSCognitoIdentityProvider" type="podspec" spec=">= 2.27.2" />
+        <framework src="AWSCognitoIdentityProviderASF" type="podspec" spec=">= 2.27.2" />
 		<framework src="AWSLambda" type="podspec" spec=">= 2.27.2" />
 		<framework src="AWSAPIGateway" type="podspec" spec=">= 2.27.2" />
 	    <framework src="SystemConfiguration.framework" weak="true" />
