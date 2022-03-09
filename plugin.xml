@@ -24,7 +24,7 @@
         </config-file>
 
 		<!-- frameworks -->
-		<framework src="AWSCore" type="podspec" spec=">= 2.5.3" />
+		<framework src="AWSCore" type="podspec" spec=">= 2.27.2" />
 		<framework src="AWSCognito" type="podspec" spec=">= 2.5.3" />
 		<framework src="AWSCognitoIdentityProvider" type="podspec" spec=">= 2.5.3" />
 		<framework src="AWSLambda" type="podspec" spec=">= 2.5.3" />
