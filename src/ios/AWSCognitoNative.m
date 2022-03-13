@@ -232,7 +232,7 @@
                         sharedManager.lastUsername = @"";
                         sharedManager.lastPassword = @"";
 
-                        self.dataset = nil;
+                        //self.dataset = nil;
 
                         CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"SignOut successful"];
                         [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
