@@ -120,7 +120,7 @@
         [AWSServiceManager defaultServiceManager].defaultServiceConfiguration = configuration;
 
         //self.syncClient = [AWSCognito defaultCognito];
-        [AWSCognito registerCognitoWithConfiguration:configuration forKey:@"CognitoSync"];
+        [AWSCognitoAuth registerCognitoAuthWithAuthConfiguration:configuration forKey:@"CognitoSync"];
         MyManager *sharedManager = [MyManager sharedManager];
 
         sharedManager.lastUsername = @"";
@@ -421,7 +421,7 @@
     ** Cognito Sync
     */
 
-    - (void) createAWSCognitoDataset:(CDVInvokedUrlCommand *) command {
+    /*- (void) createAWSCognitoDataset:(CDVInvokedUrlCommand *) command {
         // Add a dictionnary to allow to open multiple database
 
         NSMutableDictionary* options = [command.arguments objectAtIndex:0];
@@ -432,7 +432,7 @@
         NSLog(@"createAWSCognitoDataset idString : %@", idString);
         NSLog(@"createAWSCognitoDataset cognitoId : %@", cognitoId);
 
-        AWSCognito *syncClient = [AWSCognito CognitoForKey:@"CognitoSync"];
+        AWSCognitoAuth *syncClient = [AWSCognitoAuth CognitoAuthForKey:@"CognitoSync"];
 
         if ([[Reachability reachabilityForInternetConnection]currentReachabilityStatus] == NotReachable) {
             self.dataset = [syncClient openOrCreateDataset:idString];
@@ -491,7 +491,7 @@
                 return nil;
             }];
         }
-    }
+    }*/
 
 
     - (void) getUserDataCognitoSync:(CDVInvokedUrlCommand *) command {
@@ -531,7 +531,7 @@
         }
     }
 
-    - (void) setUserDataCognitoSync:(CDVInvokedUrlCommand *) command {
+    /*- (void) setUserDataCognitoSync:(CDVInvokedUrlCommand *) command {
         NSString *identityId = self.credentialsProvider.identityId;
         NSMutableDictionary* options = [command.arguments objectAtIndex:0];
 
@@ -562,7 +562,7 @@
                 return nil;
             }];
         }
-    }
+    }*/
 
     @end
 
