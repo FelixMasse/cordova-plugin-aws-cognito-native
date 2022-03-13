@@ -18,8 +18,8 @@
 	@property AWSCognitoIdentityUser *User;
 	@property AWSCognitoIdentityUserSessionToken *actualAccessToken;
  	@property NSString *arnIdentityPoolId;
- 	@property AWSCognito *syncClient;
- 	@property AWSCognitoDataset *dataset;
+ 	@property AWSCognitoAuth *syncClient;
+ 	//@property AWSCognitoDataset *dataset;
  	@property AWSCognitoCredentialsProvider *credentialsProvider;
 
  	- (void)init:(CDVInvokedUrlCommand*)command;

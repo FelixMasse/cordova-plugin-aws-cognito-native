@@ -494,7 +494,7 @@
     }*/
 
 
-    - (void) getUserDataCognitoSync:(CDVInvokedUrlCommand *) command {
+    /*- (void) getUserDataCognitoSync:(CDVInvokedUrlCommand *) command {
         NSMutableDictionary* options = [command.arguments objectAtIndex:0];
         NSString *keyString = [options objectForKey:@"key"];
 
@@ -529,7 +529,7 @@
                 return nil;
             }];
         }
-    }
+    }*/
 
     /*- (void) setUserDataCognitoSync:(CDVInvokedUrlCommand *) command {
         NSString *identityId = self.credentialsProvider.identityId;
