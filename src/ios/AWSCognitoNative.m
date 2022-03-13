@@ -1,4 +1,5 @@
 //#import "AwsUserPoolPlugin.h"
+#import "AWSCognitoNative.h"
 
     @implementation MyManager
 
