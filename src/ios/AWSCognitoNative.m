@@ -102,7 +102,7 @@
         self.User = nil;
         self.actualAccessToken = nil;
         self.arnIdentityPoolId = [options objectForKey:@"arnIdentityPoolId"];
-        self.dataset = nil;
+        //self.dataset = nil;
 
         self.credentialsProvider = nil;
 
