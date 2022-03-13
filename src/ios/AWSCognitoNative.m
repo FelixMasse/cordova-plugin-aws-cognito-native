@@ -1,4 +1,4 @@
-#import "AwsUserPoolPlugin.h"
+//#import "AwsUserPoolPlugin.h"
 
     @implementation MyManager
 
